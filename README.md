@@ -1,10 +1,10 @@
 Silverstripe Facebook App
 =========================
-Connect your silverstripe website to a facebook application. This module uses the graph api.
+Connect your silverstripe website to a Facebook application. This module uses the graph API.
 
-This is in alpha stage, and currently only posts to walls of pagebook fan pages. However I plan to add other features of the graph API later.
+This is in the alpha stage and currently only posts to walls of pagebook fan pages. However, I plan to add other features of the graph API later.
 
-You will need to have signed up for facebook developers and created an app to use this module.
+You will need to have signed up for Facebook developers and created an app to use this module.
 
 Installation
 ------------
@@ -22,9 +22,9 @@ Installation
         //Set the page_id. upDateStatus will post to this page.
         FacebookModule::set_page_id('12xxxxxxxxxxxx');
 
-* Finally, log into the facebook account that owns the page. go to site configuration.Click the link to authorize your website with facebook. To do this the website must be live and on the same URL specified in your application settings.
+* Finally, log into the Facebook account that owns the page. Go to site configuration. Click the link to authorize your website with Facebook. To do this, the website must be live and on the same URL specified in your application settings.
 
-* Facebook will ask for permission to post to your wall at any time. Click accept. You should be taken back to the administration page. The websites is now permitted to post to your facebook wall.
+* Facebook will ask for permission to post to your wall at any time. Click accept. It would be best if you were taken back to the administration page. The website is now permitted to post to your Facebook wall.
 
 
 Usage
